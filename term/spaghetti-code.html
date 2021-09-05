@@ -8,7 +8,7 @@
     <title>Coding Terms</title>
     
     <!-- Bootstrap core CSS -->
-<link href="assets/bootstrap.min.css" rel="stylesheet">
+<link href="../assets/bootstrap.min.css" rel="stylesheet">
 <meta name="theme-color" content="#7952b3">
 
     <style>
@@ -35,12 +35,12 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="assets/style.css" rel="stylesheet">
+    <link href="../assets/style.css" rel="stylesheet">
   </head>
 <body>
 
   <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 w-xs-100 text-center" href="index.html">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 w-xs-100 text-center" href="../index.html">
       <h3>Coding Terms</h3>
     </a>
 
@@ -53,7 +53,7 @@
 
       <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
         <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <p class="term-title text-center">all terms</p>
+          <p class="term-title text-center">spaghetti code</p>
         </div>
         <div class="container">
           <div class="row">
@@ -61,16 +61,38 @@
             <div class="col-10 card">
               <article class="term-body">
                 <center>
-    <a class="btn btn-outline-secondary mt-2 mb-2" href="index.html">All terms</a>
+    <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </center>
-                <p><a class="badge bg-secondary custom-badge mt-2 term-link" href="term/abstraction.html">abstraction</a>
-<a class="badge bg-secondary custom-badge mt-2 term-link" href="term/code-smell.html">code smell</a>
-<a class="badge bg-secondary custom-badge mt-2 term-link" href="term/mvc.html">mvc</a>
-<a class="badge bg-secondary custom-badge mt-2 term-link" href="term/payment-processor.html">payment processor</a>
-<a class="badge bg-secondary custom-badge mt-2 term-link" href="term/spaghetti-code.html">spaghetti code</a></p>
+                <h2>Definition</h2>
+<p>Spaghetti code is code that is difficult to understand and eventually maintain because its structure is all over the place hence the word spaghetti in its name.</p>
+<h2>Use cases and Examples</h2>
+<p>One reference used in most examples is the <code>Goto</code> statement in code.</p>
+<p>Usually, code is meant to be executed from the top to bottom, but keywords such as <code>Goto</code> allow the execution to be moved to a previous line or a line entirely in a different file somewhere.</p>
+<p>This makes it ever more difficult to follow the execution path.</p>
+<pre><code class="language-PHP">$x=(int)readline(&quot;enter a number&quot;);
+if ($x%2==0)
+   goto abc;
+echo &quot;x is an odd number&quot;;
+return;
+abc:
+echo &quot;x is an even number&quot;;
+</code></pre>
+<p>Most developers avoid the use of the <code>Goto</code> even if the programming language in use supports it. However there are still many ways to end up with a spaghetti codebase. Eg: By not organizing codebase files properly or in some situations mixing up different programming language in a messy way eg: mixing up HTML with PHP.</p>
+<pre><code class="language-PHP">$results = array(1, 2, 3, 4, 5, 6);
+$max = count($results);
+for($i = 0; $i &lt; $max; $i++) {
+    echo &quot;&lt;li&gt;&quot;;
+    echo &quot;&lt;div&gt;result &quot; . $results[$i] . &quot;&lt;/div&gt;&quot;;
+    $i++;
+    echo &quot;&lt;div&gt;result &quot; . $results[$i] . &quot;&lt;/div&gt;&quot;;
+    echo &quot;&lt;/li&gt;&quot;;
+}
+</code></pre>
+<h2>Summary</h2>
+<p>Most developers start projects without knowing it will end up with spaghetti code, it usually happens over time, hence developers usually need to learn patterns to follow when writing code, these are usually referred to as software patterns and sometimes going against them is known as an anti-pattern.</p>
 
                 <center>
-    <a class="btn btn-outline-secondary mt-2 mb-2" href="index.html">All terms</a>
+    <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </center>
             </div>
           </div>
