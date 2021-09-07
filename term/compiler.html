@@ -53,7 +53,7 @@
 
       <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
         <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <p class="term-title text-center text-capitalize">code smell</p>
+          <p class="term-title text-center text-capitalize">compiler</p>
         </div>
         <div class="container">
           <div class="row">
@@ -64,14 +64,18 @@
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </center>
                 <h2>Definition</h2>
-<p>Code smell refers to hints one sees in a codebase that might lead to the software having issues as its development continues.
-This issues can include not being able to maintain or add new features to the software easily.</p>
+<p>The general definition goes something like this, A compiler is a program that translates a programming language to another mostly low-level one that the computer can understand.</p>
+<p>To better understand this, you need to consider the fact that computer language designers create a language that contains enough syntax and precise grammar to get the computer to do things. Now once they are done defining all these rules, they need to create a program that can understand this new language and translate it into instructions for the computer.</p>
+<p>With a compiler that understands this new language other developers can now write instructions for the computer using the language, then use the compiler to translate it into something the computer can execute.</p>
+<p><strong>NB:</strong> There is also another type of program that is capable of this called the <a href="interpreter.html">interpreter</a>,  the main difference being what they output.</p>
+<p>Compilers take your instructions and build them into a program much like most of the apps you have on your computer or phone, whereas the interpreter just executes the instructions line by line hence it outputs no app-like programs you can double click to run. You will always have to have an interpreter to run the intructions.</p>
 <h2>Use cases and Examples</h2>
-<p>The term code smell is used often when a part of a codebase is written in a way that it violates some coding pattern.
-For example one way of writing software that can lead to code smells is <a href="spaghetti-code.html">spaghetti code</a></p>
+<p>Many practical programming languages out there have either a compiler or interpreter, sometimes both but the complexities of programming languages make it very rare.</p>
+<p>Depending on the needs of some software, compilers are best suited for some and interpreters for others. For example because compiled programs are usually a lot faster, they are more suitable for the development where speed is citical when the program is running.</p>
+<p>Most of these can be installed like you will any program on your computer, and as long as you understand how to use it and know the syntax of the programming language it's built for, you can begin creating software others can use.</p>
+<p>Examples of compiled languages include but not limited to C, <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">C#</a>, <a href="https://golang.org/">Golang</a> and <a href="https://www.rust-lang.org/">Rust</a></p>
 <h2>Summary</h2>
-<p>Abstraction happens at different levels of computing from logic gates, compilers to the code itself.</p>
-<p>It greatly helps programmers to focus on newer problems instead of every bolt and nut of their software or the hardware they are working with.</p>
+<p>Some programming languages have more than one compiler, this usually happens when a group of users or developers feel the original compiler might be lacking a key feature, or too slow when converting instructions to programs or that the programs themselves are slow.</p>
 
                 <center>
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
