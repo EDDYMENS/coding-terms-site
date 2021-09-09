@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Eddymens">
+    <title>Coding Terms</title>
+    
+<link href="../assets/main.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="../assets/style.css" rel="stylesheet">
+  </head>
+<body>
+
+  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 w-xs-100 text-center" href="../index.html">
+      <h3>Coding Terms</h3>
+    </a>
+     
+    </header>
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
+        <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <p class="term-title text-center text-capitalize">deadlock</p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 card">
+              <article class="term-body">
+                <center>
+    <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
+</center>
+                <h2>Definition</h2>
+<p>Deadlock is a scenario where two or multiple processes or computer programs get blocked because every one of them is holding a resource while also waiting on the other process to release the resources it needs.</p>
+<p>In the early era of computer systems, the operating system could run only one program so all the system resources were utilized by that program. Later, operating systems managed to run multiple programs where each program was required to list out the resources it needs beforehand. Today, operating systems also offer dynamic resource allocation, which implies that the program can even ask for more resources once it starts running. Failing to get the resource in such a case results in a deadlock.</p>
+<h2>Use Cases and Examples</h2>
+<p>Imagine two trains are driving on the same track and coming towards each other. Once they reach close to each other, they have no other option other than to just stop. Neither one of them can move, so we call this situation a deadlock.</p>
+<p>In an operating system, a process first requests the resource, then uses the resource, and lastly releases the resource. But the deadlock occurs when Process 1 who is using Resource A needs Resource B, which is currently being used by Process 2 who needs Resource A.</p>
+<h2>Summary</h2>
+<p>In a deadlock, the process cannot run further until the other process releases the resource. Since the operating system cannot guess what to do next, the best way out is to terminate one process to free those resources.</p>
+
+                <center>
+    <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
+</center>
+            </div>
+          </div>
+          <div class="col-1"></div>
+          </article>
+        </div>
+
+        </html>
+    </div>
+    </main>
+  </div>
+  </div>
+</body>
+<script>
+function search(){var e,t,n;for(e=document.getElementById("search").value.toLowerCase(),t=document.getElementsByClassName("term-link"),n=0;n<t.length;n++){var a=t[n];(a.textContent||a.innerText).toLowerCase().indexOf(e)>-1?a.style.display="":a.style.display="none"}}
+</script>
+</html>
