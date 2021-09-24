@@ -28,7 +28,7 @@
 
       <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
         <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <p class="term-title text-center text-capitalize">mvc</p>
+          <p class="term-title text-center text-capitalize">local storage</p>
         </div>
         <div class="container">
           <div class="row">
@@ -39,17 +39,14 @@
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </center>
                 <h2>Definition</h2>
-<p><strong>MVC</strong> is an abbreviation for <strong>Model View Controller</strong>, a way to structure your codebase such that everything regarding what end-users sees (<strong>View</strong>), everything regarding data (<strong>Model</strong>), and everything regarding logic (<strong>Controller</strong>) are all stored in separate places within the codebase.</p>
-<p>Also, this involves maintaining a clear path for all three components to work together to achieve a cohesive software application.</p>
-<h2>Use cases and Examples</h2>
-<p>So the question is why go through the trouble of ensuring all these three entities are separated?</p>
-<p>Building software usually requires software developers to have a proper mental picture of the software they are working on, and what better way to do that than identify or create patterns to help out with that.</p>
-<p>As long as all the developers working on the software are familiar with the pattern, they will know where to find what.</p>
-<p>Sometimes they might even split up into teams focusing on just one part of the three components if the project is large enough.
-Also implementing something like this contributes to good software architecture.</p>
+<p>Local storage is a web storage type that enables JavaScript sites and apps to store data (key-value pairs) in the browser with no expiration date. So, unlike <a href="session-storage.html">session storage</a>, local storage holds the data even when the tab or browser is closed.</p>
+<p>Compared to cookies, local storage offers a higher storage limit (around 5 MB or more), the syntax is straightforward, and it does not send data to the server during an HTTP request.</p>
+<h2>Use Cases and Examples</h2>
+<p>Local Storage is used mostly when a website wants to hold data that a user might want to see in the next visit. For example, shopping cart, UI theme, etc.</p>
+<p>To store values in localStorage, <code>setItem()</code> method is used. For example, <code>window.localStorage.setItem('key', 'value');</code>.
+Similarly, there are other methods for carry out other functions with localStorage, such as <code>getItem()</code>, <code>remoteItem()</code>, <code>clear()</code>, etc.</p>
 <h2>Summary</h2>
-<p>There are many kinds of design patterns similar to MVC but with different philosophies with some suiting different types of software applications better.</p>
-<p>For example, MVC is predominately used in web development. Also most of the time you won't have to structure your software to adopt this approach as you will likely be working with a <a href="web-framework.html">web framework</a> that will already have this in place.</p>
+<p>It is not meant to store sensitive data. Third-party (<a href="code.html">code</a> on the website can easily access the data and this might lead to a security breach. The key advantage of local storage is that there is no expiration date, so the data is retained for as long as the developer wants.</p>
 
                 <center>
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>

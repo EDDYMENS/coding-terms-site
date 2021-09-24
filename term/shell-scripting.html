@@ -28,7 +28,7 @@
 
       <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
         <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <p class="term-title text-center text-capitalize">mvc</p>
+          <p class="term-title text-center text-capitalize">shell scripting</p>
         </div>
         <div class="container">
           <div class="row">
@@ -39,17 +39,23 @@
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </center>
                 <h2>Definition</h2>
-<p><strong>MVC</strong> is an abbreviation for <strong>Model View Controller</strong>, a way to structure your codebase such that everything regarding what end-users sees (<strong>View</strong>), everything regarding data (<strong>Model</strong>), and everything regarding logic (<strong>Controller</strong>) are all stored in separate places within the codebase.</p>
-<p>Also, this involves maintaining a clear path for all three components to work together to achieve a cohesive software application.</p>
-<h2>Use cases and Examples</h2>
-<p>So the question is why go through the trouble of ensuring all these three entities are separated?</p>
-<p>Building software usually requires software developers to have a proper mental picture of the software they are working on, and what better way to do that than identify or create patterns to help out with that.</p>
-<p>As long as all the developers working on the software are familiar with the pattern, they will know where to find what.</p>
-<p>Sometimes they might even split up into teams focusing on just one part of the three components if the project is large enough.
-Also implementing something like this contributes to good software architecture.</p>
+<p>Shell is an <a href="interpreter.html">interpreter</a>, a program designed to run on UNIX-based operation systems. To work with shell you can type out your instructions right in the terminal or write the instructions out as a script which will contain the instructions to be  executed by the shell interpreter.</p>
+<p>Several commands can be executed using shell, from telling the time to manipulating files.</p>
+<h2>Use Cases and Examples</h2>
+<p>Shell scripts have several use cases and are generally used to automate processes that are repeatedly asked to be executed by the user. By writing a shell script, the developer can automate such processes to avoid unnecessary repetitive tasks.
+Below is an example Shell code prompting users to write their names and giving a response in return:</p>
+<pre><code>Echo “Hello, would it be okay if I were to ask you your name?”
+Read NAME
+Echo “Hello, $NAME”
+</code></pre>
+<p>The result would appear in the following manner:</p>
+<pre><code>Hello, would it be okay if I were to ask you your name?
+John
+Hello, John
+</code></pre>
+<p>Another popular use of shell scripting in the past was for the deployment of software onto servers, these days this has been overtaken by a lot more complex tools.</p>
 <h2>Summary</h2>
-<p>There are many kinds of design patterns similar to MVC but with different philosophies with some suiting different types of software applications better.</p>
-<p>For example, MVC is predominately used in web development. Also most of the time you won't have to structure your software to adopt this approach as you will likely be working with a <a href="web-framework.html">web framework</a> that will already have this in place.</p>
+<p>Shell scripting is a UNIX-based computer program that allows certain recurring tasks to be automated. The commands entered are to be executed by the shell interpreter.</p>
 
                 <center>
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
