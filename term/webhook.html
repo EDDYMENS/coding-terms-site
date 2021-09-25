@@ -28,7 +28,7 @@
 
       <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
         <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <p class="term-title text-center text-capitalize">anti pattern</p>
+          <p class="term-title text-center text-capitalize">webhook</p>
         </div>
         <div class="container">
           <div class="row">
@@ -39,19 +39,14 @@
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </center>
                 <h2>Definition</h2>
-<p>An anti-pattern is a concept used in programming to define patterns (or practices) of writing <a href="code.html">code</a> that are undesirable. It often comprises ineffective, complex, or ambiguous methods of writing code. The term acts as the opposite of a <a href="design-pattern.html">design pattern</a>, which means desirable coding practices.</p>
+<p>A Webhook is a setup where an app is able to later send some data to another app whenever an event occurs. It's like when you give someone your number for them to call you back when they have some information.
+And in fact, there is a concept similar to webhooks called a callback.</p>
 <h2>Use Cases and Examples</h2>
-<p>There are a number of programming practices that can be considered an anti-pattern. Some are listed as follows:</p>
-<ul>
-<li>
-<strong><a href="spaghetti-code.html">Spaghetti Code</a></strong> is a common anti-pattern characterized by a lack of planning and inexperience leading to messy code that is hard to read and comprehend, and often contains errors that might not be noticeable on the surface but build up to difficult to manage <a href="source-code.html">source code</a>.</li>
-<li>
-<strong>Golden Hammer</strong> is another anti-pattern that is often used to describe a programming practice that is not relevant or effective for the project at hand. It does not mean that the programming practice itself is bad, rather just irrelevant to the code at hand.</li>
-<li>
-<strong>Dead Code</strong> is an anti-pattern used to describe code that does not perform any function within the overall code but still remains there.</li>
-</ul>
+<p>Take the example of an e-commerce store using a <a href="payment-processor.html">payment gateway</a>, where the payment gateway being used is a third-party app. The e-commerce store has integrated the payment gateway API so that whenever a customer adds anything to their cart and wishes to pay, they are redirected to the payment gateway page, which is independent of the store.</p>
+<p>Since the real-time information regarding the payment status is held by the payment gateway third-party app and not the store itself, there needs to be a way for the store to stay updated regarding the status of the payment.
+This is where a webhook comes in. Using a webhook provided by the store, the payment gateway can send an update back to the store once the payment is completed by the user.</p>
 <h2>Summary</h2>
-<p>In essence, anti-pattern comprises unwanted programming practices that lead to overall poor code quality.</p>
+<p>In essence, a webhook provides an easy way for webpages/applications to acquire real-time data if a third-party app is being used and the data collection is not directly in their hands.</p>
 
                 <center>
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>

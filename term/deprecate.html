@@ -28,7 +28,7 @@
 
       <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
         <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <p class="term-title text-center text-capitalize">anti pattern</p>
+          <p class="term-title text-center text-capitalize">deprecate</p>
         </div>
         <div class="container">
           <div class="row">
@@ -39,19 +39,12 @@
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </center>
                 <h2>Definition</h2>
-<p>An anti-pattern is a concept used in programming to define patterns (or practices) of writing <a href="code.html">code</a> that are undesirable. It often comprises ineffective, complex, or ambiguous methods of writing code. The term acts as the opposite of a <a href="design-pattern.html">design pattern</a>, which means desirable coding practices.</p>
+<p>In programming, the process of deprecation occurs when a certain piece of code within a <a href="source-code.html">codebase</a> becomes irrelevant or is no longer of any use. In such a situation, newly written <a href="code.html">code</a> replaces the previous code. However, the programmer has to be careful about deciding what to do with deprecated code, as removing it can result in regression errors. Meaning other parts might depend on this piece of code and that might lead to errors.</p>
 <h2>Use Cases and Examples</h2>
-<p>There are a number of programming practices that can be considered an anti-pattern. Some are listed as follows:</p>
-<ul>
-<li>
-<strong><a href="spaghetti-code.html">Spaghetti Code</a></strong> is a common anti-pattern characterized by a lack of planning and inexperience leading to messy code that is hard to read and comprehend, and often contains errors that might not be noticeable on the surface but build up to difficult to manage <a href="source-code.html">source code</a>.</li>
-<li>
-<strong>Golden Hammer</strong> is another anti-pattern that is often used to describe a programming practice that is not relevant or effective for the project at hand. It does not mean that the programming practice itself is bad, rather just irrelevant to the code at hand.</li>
-<li>
-<strong>Dead Code</strong> is an anti-pattern used to describe code that does not perform any function within the overall code but still remains there.</li>
-</ul>
+<p>An example of deprecation is the use of the <code>gets()</code> function in the C <a href="programming-language.html">programming language</a>.</p>
+<p>Deprecated code usually comes up when some code has long been replaced, but it's still kept around for safety reasons, in case it's been used by some other code. Many forms of warning are usually employed either in code editors or <a href="documentation.html">documentation</a> to warn developers to not use this deprecated code in new code as it will be phased out over time.</p>
 <h2>Summary</h2>
-<p>In essence, anti-pattern comprises unwanted programming practices that lead to overall poor code quality.</p>
+<p>The process of deprecation is a normal occurrence when updating any program/code. It usually follows the addition of new code that supersedes the previous one. While the old code becomes irrelevant, it still has to be tackled carefully as simply deleting it can cause errors.</p>
 
                 <center>
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>

@@ -28,7 +28,7 @@
 
       <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
         <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <p class="term-title text-center text-capitalize">anti pattern</p>
+          <p class="term-title text-center text-capitalize">parameter</p>
         </div>
         <div class="container">
           <div class="row">
@@ -39,19 +39,21 @@
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </center>
                 <h2>Definition</h2>
-<p>An anti-pattern is a concept used in programming to define patterns (or practices) of writing <a href="code.html">code</a> that are undesirable. It often comprises ineffective, complex, or ambiguous methods of writing code. The term acts as the opposite of a <a href="design-pattern.html">design pattern</a>, which means desirable coding practices.</p>
+<p>When you take a look at mathematical formulas most of them usually have alphabets say <strong>x</strong> or <strong>y</strong> in them, and the intention is that anyone using these formulas will replace the <strong>x</strong> and <strong>y</strong>s with actual values. In the programming world functions can be viewed as these formulas and parameters will be the <strong>x</strong> and <strong>y</strong>s.</p>
 <h2>Use Cases and Examples</h2>
-<p>There are a number of programming practices that can be considered an anti-pattern. Some are listed as follows:</p>
-<ul>
-<li>
-<strong><a href="spaghetti-code.html">Spaghetti Code</a></strong> is a common anti-pattern characterized by a lack of planning and inexperience leading to messy code that is hard to read and comprehend, and often contains errors that might not be noticeable on the surface but build up to difficult to manage <a href="source-code.html">source code</a>.</li>
-<li>
-<strong>Golden Hammer</strong> is another anti-pattern that is often used to describe a programming practice that is not relevant or effective for the project at hand. It does not mean that the programming practice itself is bad, rather just irrelevant to the code at hand.</li>
-<li>
-<strong>Dead Code</strong> is an anti-pattern used to describe code that does not perform any function within the overall code but still remains there.</li>
-</ul>
+<p>Here is an example of a function in Javascript that adds two parameters together:</p>
+<pre><code>// declaring the function
+function adder(a, b) {
+    return a+b;
+}
+
+// using the function
+adder(1,2);
+</code></pre>
+<p>What you have above is a function called adder that takes two parameters and returns the sum of <code>a</code> and <code>b</code>. The last bit of the <a href="code.html">code</a> shows how you will use this function.
+You will refer to the values you pass in to replace the parameters as arguments.</p>
 <h2>Summary</h2>
-<p>In essence, anti-pattern comprises unwanted programming practices that lead to overall poor code quality.</p>
+<p>Parameters are key to how we end up getting different behaviors out of the same piece of code.</p>
 
                 <center>
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
