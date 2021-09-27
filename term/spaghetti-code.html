@@ -42,7 +42,7 @@
 <p>Spaghetti code is code that is difficult to understand and eventually maintain because its structure is all over the place hence the word spaghetti in its name.</p>
 <h2>Use cases and Examples</h2>
 <p>One reference used in most examples is the <code>Goto</code> statement in code.</p>
-<p>Usually, code is meant to be executed from the top to bottom, but keywords such as <code>Goto</code> allow the execution to be moved to a previous line or a line entirely in a different file somewhere.</p>
+<p>Usually, code is meant to be executed from the top to bottom, but <a href="keyword.html">keywords</a> such as <code>Goto</code> allow the execution to be moved to a previous line or a line entirely in a different file somewhere.</p>
 <p>This makes it ever more difficult to follow the execution path.</p>
 <pre><code class="language-PHP">$x=(int)readline(&quot;enter a number&quot;);
 if ($x%2==0)
@@ -52,7 +52,7 @@ return;
 abc:
 echo &quot;x is an even number&quot;;
 </code></pre>
-<p>Most developers avoid the use of the <code>Goto</code> even if the <a href="programming-language.html">programming language</a> in use supports it. However there are still many ways to end up with a spaghetti codebase. Eg: By not organizing codebase files properly or in some situations mixing up different programming language in a messy way eg: mixing up HTML with PHP.</p>
+<p>Most developers avoid the use of the <code>Goto</code> even if the <a href="programming-language.html">programming language</a> in use supports it. However there are still many ways to end up with a spaghetti <a href="source-code.html">codebase</a>. Eg: By not organizing codebase files properly or in some situations mixing up different programming language in a messy way eg: mixing up HTML with PHP.</p>
 <pre><code class="language-PHP">$results = array(1, 2, 3, 4, 5, 6);
 $max = count($results);
 for($i = 0; $i &lt; $max; $i++) {

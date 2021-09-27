@@ -28,7 +28,7 @@
 
       <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
         <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <p class="term-title text-center text-capitalize">parameter</p>
+          <p class="term-title text-center text-capitalize">loop</p>
         </div>
         <div class="container">
           <div class="row">
@@ -39,21 +39,24 @@
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </center>
                 <h2>Definition</h2>
-<p>When you take a look at mathematical formulas most of them usually have alphabets say <strong>x</strong> or <strong>y</strong> in them, and the intention is that anyone using these formulas will replace the <strong>x</strong> and <strong>y</strong>s with actual values. In the programming world functions can be viewed as these formulas and parameters will be the <strong>x</strong> and <strong>y</strong>s.</p>
+<p>One of the beautiful things about a computer is its ability to follow a list of instructions from top to bottom executing them at a fast pace.</p>
+<p>But the most remarkable is its ability to continue performing that same task over and over and only stops when it finds an answer for us based on a check we set.</p>
 <h2>Use Cases and Examples</h2>
-<p>Here is an example of a function in Javascript that adds two parameters together:</p>
-<pre><code>// declaring the function
-function adder(a, b) {
-    return a+b;
+<p>Now take the task of adding the first 1000 natural numbers thus <code>1,2,3,4,5,6...</code> this is something that will take us a while to do by hand, and will also take us some amount of time if we had to tell the computer &quot;hey add 1  to 2 then to 3 all the way down to 1000&quot;.</p>
+<p>Instead of this we can tell the computer look add numbers up and stop when you get to 1000. This is what makes loops a useful part of modern programming languages.</p>
+<p>Here is an example in the Javascript programming laguage adding up numbers from 1 to 1000:</p>
+<pre><code>function adder() {
+    var sum = 0;
+    for(var i = 1; i &lt;= 1000; i++) { // here is the loop
+      sum += i;
+    }
+    console.log(&quot;The sum is:&quot;, sum);
 }
 
-// using the function
-adder(1,2);
+adder(); //The sum is: 500500
 </code></pre>
-<p>What you have above is a function called <strong>adder</strong> that takes two parameters and returns the sum of <code>a</code> and <code>b</code>. The last bit of the <a href="code.html">code</a> shows how you will use this function.
-You will refer to the values you pass in to replace the parameters as <a href="argument.html">arguments</a>.</p>
 <h2>Summary</h2>
-<p>Parameters are key to how we end up getting different behaviors out of the same piece of code.</p>
+<p>Recursion.</p>
 
                 <center>
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
