@@ -28,7 +28,7 @@
 
       <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
         <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <p class="term-title text-center text-capitalize">webhook</p>
+          <p class="term-title text-center text-capitalize">configuration</p>
         </div>
         <div class="container">
           <div class="row">
@@ -39,14 +39,16 @@
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </center>
                 <h2>Definition</h2>
-<p>A Webhook is a setup where an app is able to later send some data to another app whenever an event occurs. It's like when you give someone your number for them to call you back when they have some information.
-And in fact, there is a concept similar to webhooks called a <a href="callback.html">callback</a>.</p>
-<h2>Use Cases and Examples</h2>
-<p>Take the example of an e-commerce store using a <a href="payment-processor.html">payment gateway</a>, where the payment gateway being used is a third-party app. The e-commerce store has integrated the payment gateway API so that whenever a customer adds anything to their cart and wishes to pay, they are redirected to the payment gateway page, which is independent of the store.</p>
-<p>Since the real-time information regarding the payment status is held by the payment gateway third-party app and not the store itself, there needs to be a way for the store to stay updated regarding the status of the payment.
-This is where a webhook comes in. Using a webhook provided by the store, the payment gateway can send an update back to the store once the payment is completed by the user.</p>
+<p>Every software we use comes with built-in behaviors and attributes like, the colors used for its interface, the size of inputs, and hidden parts like what kind of database it uses. Most of these attributes are written in code as part of the application but sometimes developers decide to extract some of these attributes into configurations.</p>
+<p>This is done mostly because this part is likely to change more often. The reasons for this change vary widely, from the fact that the software can be set up for test purposes and need a different set of attributes all the way to different specification requirements from clients.</p>
+<p>Configuration files are usually less dense and isolated as compared to the rest of the code that is knitted into each other. This makes it convenient and easy to make changes easily.</p>
+<h2>Use cases and Examples</h2>
+<p>There are different types of configurations. The closest examples to end-users are usually what they get as part of the setting for their software.
+Some software stores these settings in a configuration file to be used next time the user opens up the app.</p>
+<p>There are a lot more developer-focused configuration examples like database connection credentials files, switching on and off <a href="debugging.html">debugging</a> mode to config files used by tools like <a href="https://www.ansible.com/">Ansible</a> to setup up a server.</p>
+<p>YAML, XML, <a href="json.html">JSON</a>, and DOTENV are some popular formats developers use to store configurations.</p>
 <h2>Summary</h2>
-<p>In essence, a webhook provides an easy way for webpages/applications to acquire real-time data if a third-party app is being used and the data collection is not directly in their hands.</p>
+<p>Configuration files often shorten to config files provide developers a way to change some behavior or attribute of software without necessarily touching its code.</p>
 
                 <center>
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>

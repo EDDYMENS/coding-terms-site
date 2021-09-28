@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Eddymens">
+    <title>Coding Terms</title>
+    
+<link href="../assets/main.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="../assets/style.css" rel="stylesheet">
+  </head>
+<body>
+
+  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 w-xs-100 text-center" href="../index.html">
+      <h3>Coding Terms</h3>
+    </a>
+        <div class="navbar-nav w-xs-100">
+      <div class="nav-item text-nowrap">
+        <a class="btn bg-danger btn-lg w-xs-100" target="blank" href="https://easybiz.typeform.com/to/TznHJjSn">Signup for tech jobs</a>
+      </div>
+    </div>
+    </header>
+  <div class="container-fluid">
+    <div class="row">
+
+      <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
+        <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <p class="term-title text-center text-capitalize">callback</p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 card">
+              <article class="term-body">
+                <center>
+    <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
+</center>
+                <h2>Definition</h2>
+<p><a href="function.html">Functions</a> are a set of instructions that perform a specific task, they are usually bundled together and given a name so it can be reused in different parts of your code.</p>
+<p>Functions may take in <a href="argument.html">arguments</a> and return results. Sometimes you will like some external code or a third-party developer to determine what to do with the output, in which case you will allow them to pass in a function as an argument and your function will pass the results to the external developers' function to perform whatever their function wants.</p>
+<p>Another case is in some <a href="programming-language.html">programming languages</a> like Javascript, you can use callbacks if the function is going to take a while to finish up a task. In this case, you pass in a callback to continue performing some task once the original function is done computing what it needs to do.</p>
+<h2>Use cases and Examples</h2>
+<p>Here is sample code in Javascript getting some data from a server and then using a callback to print it out once the server returns the output.</p>
+<pre><code>fetch('http://example.com/message.json')
+  .then(function(response) {
+      return response.json();
+  })
+  .then(function(data){
+      console.log(&quot;print message:&quot;, data);
+  });
+
+console.log(&quot;second line will show up first&quot;);
+</code></pre>
+<p><strong>NB:</strong> The output will look like this:</p>
+<pre><code>second line will show up first
+print message: hello
+</code></pre>
+<p>The reason being that Javascript does not wait for the message to be returned from the server before moving onto the second line, so while the data is yet to be sent from the server, the second line is executed. When the server finally returns the result the callback will be ready to print it out to screen. Thus this part of the code:</p>
+<pre><code> .then(function(data){
+      console.log(&quot;print message:&quot; data);
+  });
+</code></pre>
+<h2>Summary</h2>
+<p>Callbacks are very popular with the Javascript programming language because it's an asynchronous language. Meaning, it doesn't always wait for one task to finish before moving on to the next, hence you provide a callback to capture outputs as and when parts of the code provide them. The use of callbacks in the language has been problematic leading to an issue referred to as callback hell.
+Leading to the use of structures such as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function">async-await</a></p>
+
+                <center>
+    <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
+</center>
+            </div>
+          </div>
+          <div class="col-1"></div>
+          </article>
+        </div>
+
+        </html>
+    </div>
+    </main>
+  </div>
+  </div>
+</body>
+<script>
+function search(){var e,t,n;for(e=document.getElementById("search").value.toLowerCase(),t=document.getElementsByClassName("term-link"),n=0;n<t.length;n++){var a=t[n];(a.textContent||a.innerText).toLowerCase().indexOf(e)>-1?a.style.display="":a.style.display="none"}}
+</script>
+<!--hidden links-->
+<template>
+  <a href="../404.html" href="../sitemap.xml"></a>
+</template>
+</html>
