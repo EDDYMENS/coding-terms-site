@@ -28,7 +28,7 @@
 
       <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
         <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <p class="term-title text-center text-capitalize">deadlock</p>
+          <p class="term-title text-center text-capitalize">macro</p>
         </div>
         <div class="container">
           <div class="row">
@@ -38,14 +38,25 @@
                 <center>
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </center>
-                <h2>Definition</h2>
-<p>Deadlock is a scenario where two or multiple processes or computer programs get blocked because every one of them is holding a resource while also waiting on the other process to release the resources it needs.</p>
-<p>In the early era of computer systems, the <a href="operating-system.html">operating system</a> could run only one program so all the system resources were utilized by that program. Later, operating systems managed to run multiple programs where each program was required to list out the resources it needs beforehand. Today, operating systems also offer dynamic resource allocation, which implies that the program can even ask for more resources once it starts running. Failing to get the resource in such a case results in a deadlock.</p>
-<h2>Use Cases and Examples</h2>
-<p>Imagine two trains are driving on the same track and coming towards each other. Once they reach close to each other, they have no other option other than to just stop. Neither one of them can move, so we call this situation a deadlock.</p>
-<p>In an operating system, a process first requests the resource, then uses the resource, and lastly releases the resource. But the deadlock occurs when Process 1 who is using Resource A needs Resource B, which is currently being used by Process 2 who needs Resource A.</p>
+                <h2>Definition:</h2>
+<p>A macro is a pseudo instruction that is meant to be converted to code later on.</p>
+<p>Similar to the use of emojis during texting. It's just a single image but conveys meaning to its intended reader. One that might span an entire sentence if expressed as text.</p>
+<p>In the software landscape, macros allow the developer to type out simple language constructs. This construct will later be expanded into actual code the compiler or interpreter will understand.</p>
+<h2>Use cases and Examples</h2>
+<p>Not all <a href="programming-language.html">programming languages</a> come with macros, but you can always implement some form of macro into your development flow.</p>
+<p>Here is an example of macros in the C programming language:</p>
+<pre><code>// here is the macro definition 
+#define SUM(x, y) x + y
+
+// here is the macro usage
+int ans = SUM(1, 2)
+</code></pre>
+<p>In the example above, we defined our macro, and when it's time to use it, we don't have to explain what needs to be done.
+The above example looks very similar to functions. Macros in C go beyond this example though.</p>
 <h2>Summary</h2>
-<p>In a deadlock, the process cannot run further until the other process releases the resource. Since the operating system cannot guess what to do next, the best way out is to terminate one process to free those resources.</p>
+<p>Macros are less used in modern programming languages. There is another concept similar to the use of macros known as preprocessors.</p>
+<p>This is a setup where the code the developer writes is first passed through a compiler-like setup, and the output is then passed through the actual compiler or interpreter of the programming language in use.</p>
+<p>This middle step allows developers to introduce special syntax or add anything the programming language they are working with might be lacking.</p>
 
                 <center>
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
