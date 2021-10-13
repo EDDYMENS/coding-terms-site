@@ -39,8 +39,9 @@
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </center>
                 <h2>Definition</h2>
-<p><a href="function.html">Functions</a> are a set of instructions that perform a specific task, they are usually bundled together and given a name so it can be reused in different parts of your code.</p>
-<p>Functions may take in <a href="argument.html">arguments</a> and return results. Sometimes you will like some external code or a third-party developer to determine what to do with the output, in which case you will allow them to pass in a function as an argument and your function will pass the results to the external developers' function to perform whatever their function wants.</p>
+<p><a href="function.html">Functions</a> when used in code performs a set of predefined instructions, its similar to options on a washing machine where choosing one setting will wash your cloths at a specific temperature, for a set duration.</p>
+<p>Functions may take in <a href="argument.html">arguments</a> and return results. Sometimes you will like some external code or a third-party developer to determine what to do with the output.</p>
+<p>In this case the third party developer defines what they will like to do with the output in their function then pass it into your function.</p>
 <p>Another case is in some <a href="programming-language.html">programming languages</a> like Javascript, you can use callbacks if the function is going to take a while to finish up a task. In this case, you pass in a callback to continue performing some task once the original function is done computing what it needs to do.</p>
 <h2>Use cases and Examples</h2>
 <p>Here is sample code in Javascript getting some data from a server and then using a callback to print it out once the server returns the output.</p>
@@ -64,8 +65,9 @@ print message: hello
   });
 </code></pre>
 <h2>Summary</h2>
-<p>Callbacks are very popular with the Javascript programming language because it's an asynchronous language. Meaning, it doesn't always wait for one task to finish before moving on to the next, hence you provide a callback to capture outputs as and when parts of the code provide them. The use of callbacks in the language has been problematic leading to an issue referred to as callback hell.
-Leading to the use of structures such as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function">async-await</a></p>
+<p>Callbacks are very popular with the Javascript programming language because it's an asynchronous language. Meaning, it doesn't always wait for one task to finish before moving on to the next, hence you provide a callback to capture outputs as and when parts of the code provide them.</p>
+<p>The use of callbacks in the language has been problematic leading to an issue referred to as callback hell.
+This has led to the use of structures such as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function">async-await</a></p>
 
                 <center>
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
