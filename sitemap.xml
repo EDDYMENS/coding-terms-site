@@ -7,7 +7,7 @@
 
 <url>
   <loc>https://codingterms.com</loc>
-  <lastmod>2021-11-03</lastmod>
+  <lastmod>2021-11-05</lastmod>
   <priority>1.00</priority>
 </url>
 
@@ -202,6 +202,11 @@
   <priority>0.5</priority>
 </url>
 <url>
+  <loc>https://codingterms.com/term/integrated-development-environment-ide</loc>
+  <lastmod>2021-11-05</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
   <loc>https://codingterms.com/term/interpreter</loc>
   <lastmod>2021-09-07</lastmod>
   <priority>0.5</priority>
@@ -252,7 +257,12 @@
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://codingterms.com/term/mvc</loc>
+  <loc>https://codingterms.com/term/minimum-viable-product-mvp</loc>
+  <lastmod>2021-11-05</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://codingterms.com/term/model-view-controller-mvc</loc>
   <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
@@ -403,7 +413,7 @@
 </url>
 <url>
   <loc>https://codingterms.com/term/web-framework</loc>
-  <lastmod>2021-10-20</lastmod>
+  <lastmod>2021-11-05</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
