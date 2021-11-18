@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Primary Meta Tags -->
+    <title>Coding Terms | CALLBACK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Coding Terms | CALLBACK">
+    <meta name="description" content="What is callback">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://codingterms.com/">
+    <meta property="og:title" content="Coding Terms | CALLBACK">
+    <meta property="og:description" content="What is callback">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://codingterms.com/">
+    <meta property="twitter:title" content="Coding Terms | CALLBACK">
+    <meta property="twitter:description" content="What is callback">
+    <meta property="twitter:image" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="Eddymens">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/favicons/site.webmanifest">
+
+   <meta name="google-site-verification" content="6vzv3E5M2knCHb09ihdXyAo3NUZWGAQQjGjY0RQ740M" />
+<link href="../../assets/main.min.css" rel="prefetch" >
+<link href="../../assets/main.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="../../assets/style.css" rel="prefetch">
+    <link href="../../assets/style.css" rel="stylesheet">
+    <link href="../../index.html" rel="prefetch" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K7K2MR150P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K7K2MR150P');
+</script>
+  </head>
+<body>
+
+  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 w-xs-100 text-center" href="../../index.html">
+      <h3>Coding Terms</h3>
+    </a>
+        <div class="navbar-nav w-xs-100">
+      <div class="nav-item text-nowrap">
+        <a class="btn bg-danger btn-lg w-xs-100" target="blank" href="https://easybiz.typeform.com/to/TznHJjSn">Signup for tech jobs</a>
+      </div>
+    </div>
+    </header>
+  <div class="container-fluid">
+    <div class="row">
+
+      <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
+        <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <p class="term-title text-center text-capitalize">callback</p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 card">
+              <article class="term-body">
+                <span class="center-it">
+    <a class="btn btn-outline-secondary mt-2 mb-2" href="../../index.html">All terms</a>
+</span>
+                <h2>Definition</h2>
+<p><a href="../function.html">Functions</a> when used in code performs a set of predefined instructions, its similar to options on a washing machine where choosing one setting will wash your cloths at a specific temperature, for a set duration.</p>
+<p>Functions may take in <a href="../argument.html">arguments</a> and return results. Sometimes you will like some external code or a third-party developer to determine what to do with the output.</p>
+<p>In this case the third party developer defines what they will like to do with the output in their function then pass it into your function.</p>
+<p>Another case is in some <a href="../programming-language.html">programming languages</a> like Javascript, you can use callbacks if the function is going to take a while to finish up a task. In this case, you pass in a callback to continue performing some task once the original function is done computing what it needs to do.</p>
+<h2>Use cases and Examples</h2>
+<p>Here is sample code in Javascript getting some data from a <a href="../server.html">server</a> and then using a callback to print it out once the server returns the output.</p>
+<pre><code>fetch('http://example.com/message.json')
+  .then(function(response) {
+      return response.json();
+  })
+  .then(function(data){
+      console.log(&quot;print message:&quot;, data);
+  });
+
+console.log(&quot;second line will show up first&quot;);
+</code></pre>
+<p><strong>NB:</strong> The output will look like this:</p>
+<pre><code>second line will show up first
+print message: hello
+</code></pre>
+<p>The reason being that Javascript does not wait for the message to be returned from the server before moving onto the second line, so while the data is yet to be sent from the server, the second line is executed. When the server finally returns the result the callback will be ready to print it out to screen. Thus this part of the code:</p>
+<pre><code> .then(function(data){
+      console.log(&quot;print message:&quot; data);
+  });
+</code></pre>
+<h2>Summary</h2>
+<p>Callbacks are very popular with the Javascript programming language because it's an asynchronous language. Meaning, it doesn't always wait for one task to finish before moving on to the next, hence you provide a callback to capture outputs as and when parts of the code provide them.</p>
+<p>The use of callbacks in the language has been problematic leading to an issue referred to as callback hell.
+This has led to the use of structures such as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function">async-await</a></p>
+
+                <span class="center-it">
+    <a class="btn btn-outline-secondary mt-2 mb-2" href="../../index.html">All terms</a>
+</span>
+            </div>
+              <a href="https://github.com/EDDYMENS/coding-terms-markdown" target="__blank" class="center-it"><b>Github</b></a>
+          </div>
+          <div class="col-1"></div>
+          </article>
+        </div>
+
+        </html>
+    </div>
+    </main>
+  </div>
+  </div>
+</body>
+<script>
+function search(){var e,t,n;for(e=document.getElementById("search").value.toLowerCase(),t=document.getElementsByClassName("term-link"),n=0;n<t.length;n++){var a=t[n];(a.textContent||a.innerText).toLowerCase().indexOf(e)>-1?a.style.display="":a.style.display="none"}}
+</script>
+<!--hidden links-->
+<template>
+  <a href="../../404.html" href="../../sitemap.xml"></a>
+</template>
+</html>
+      <link rel="prefetch" href="../function/index.html" />
+      <link rel="prefetch" href="../argument/index.html" />
+      <link rel="prefetch" href="../programming-language/index.html" />
+      <link rel="prefetch" href="../server/index.html" />
+    
