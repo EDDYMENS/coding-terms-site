@@ -7,7 +7,7 @@
 
 <url>
   <loc>https://codingterms.com</loc>
-  <lastmod>2021-11-18</lastmod>
+  <lastmod>2021-11-23</lastmod>
   <priority>1.00</priority>
 </url>
 
@@ -119,6 +119,11 @@
 <url>
   <loc>https://codingterms.com/term/configuration</loc>
   <lastmod>2021-10-04</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://codingterms.com/term/continuous-integration-ci</loc>
+  <lastmod>2021-11-23</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
@@ -244,6 +249,11 @@
 <url>
   <loc>https://codingterms.com/term/lazy-loading</loc>
   <lastmod>2021-09-27</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://codingterms.com/term/load-balancing</loc>
+  <lastmod>2021-11-23</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
@@ -399,6 +409,11 @@
 <url>
   <loc>https://codingterms.com/term/software-developer</loc>
   <lastmod>2021-10-04</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://codingterms.com/term/software-development-kit-sdk</loc>
+  <lastmod>2021-11-23</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
