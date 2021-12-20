@@ -7,88 +7,88 @@
 
 <url>
   <loc>https://codingterms.com</loc>
-  <lastmod>2021-12-09</lastmod>
+  <lastmod>2021-12-20</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://codingterms.com/term/abstract-syntax-tree</loc>
-  <lastmod>2021-10-17</lastmod>
+  <lastmod>2021-10-09</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/abstraction</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-24</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/acceptance-testing</loc>
-  <lastmod>2021-12-02</lastmod>
+  <lastmod>2021-11-30</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/all-terms</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-11-18</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/anti-pattern</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/api</loc>
-  <lastmod>2021-10-17</lastmod>
+  <lastmod>2021-10-06</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/argument</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/ascii</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-20</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/authentication</loc>
-  <lastmod>2021-10-17</lastmod>
+  <lastmod>2021-10-06</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/backlog</loc>
-  <lastmod>2021-11-06</lastmod>
+  <lastmod>2021-11-03</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/boilerplate</loc>
-  <lastmod>2021-12-02</lastmod>
+  <lastmod>2021-11-29</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/bug</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/cache</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/callback</loc>
-  <lastmod>2021-10-17</lastmod>
+  <lastmod>2021-10-13</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/casting</loc>
-  <lastmod>2021-10-17</lastmod>
+  <lastmod>2021-10-20</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/closed-source</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
@@ -98,337 +98,342 @@
 </url>
 <url>
   <loc>https://codingterms.com/term/code-smell</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-12-20</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/code-snippet</loc>
-  <lastmod>2021-11-27</lastmod>
+  <lastmod>2021-11-26</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/code</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/command-line-interface-cli</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-22</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/compiler</loc>
-  <lastmod>2021-11-27</lastmod>
+  <lastmod>2021-11-29</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/concatenation</loc>
-  <lastmod>2021-10-17</lastmod>
+  <lastmod>2021-10-04</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/concurrency</loc>
-  <lastmod>2021-11-09</lastmod>
+  <lastmod>2021-11-08</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/configuration</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-10-04</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/continuous-integration-ci</loc>
-  <lastmod>2021-11-25</lastmod>
+  <lastmod>2021-11-23</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/cookie</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/cronjob</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-21</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/crud</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://codingterms.com/term/dark-pattern</loc>
+  <lastmod>2021-12-20</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/data-type</loc>
-  <lastmod>2021-10-17</lastmod>
+  <lastmod>2021-10-13</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/database</loc>
-  <lastmod>2021-10-17</lastmod>
+  <lastmod>2021-10-06</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/deadlock</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-13</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/debugging</loc>
-  <lastmod>2021-10-17</lastmod>
+  <lastmod>2021-10-13</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/deployment</loc>
-  <lastmod>2021-11-25</lastmod>
+  <lastmod>2021-11-26</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/deprecate</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/design-pattern</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/developer</loc>
-  <lastmod>2021-10-01</lastmod>
+  <lastmod>2021-10-04</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/documentation</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-24</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/domain-specific-language-dsl</loc>
-  <lastmod>2021-11-09</lastmod>
+  <lastmod>2021-11-11</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/feature-creep</loc>
-  <lastmod>2021-11-09</lastmod>
+  <lastmod>2021-11-11</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/frontend-web-framework</loc>
-  <lastmod>2021-12-02</lastmod>
+  <lastmod>2021-11-29</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/function</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-20</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/general-purpose</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/graphic-user-interface-gui</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-22</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/high-level</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/immutability</loc>
-  <lastmod>2021-11-09</lastmod>
+  <lastmod>2021-11-08</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/integrated-development-environment-ide</loc>
-  <lastmod>2021-11-06</lastmod>
+  <lastmod>2021-11-05</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/interpreter</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-07</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/json</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/just-in-time-compiler-jit</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-25</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/jwt</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-20</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/keyword</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/lazy-loading</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/load-balancing</loc>
-  <lastmod>2021-11-25</lastmod>
+  <lastmod>2021-11-23</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/local-storage</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/locale</loc>
-  <lastmod>2021-11-25</lastmod>
+  <lastmod>2021-11-11</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/localization</loc>
-  <lastmod>2021-11-25</lastmod>
+  <lastmod>2021-11-11</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/long-term-support-lts</loc>
-  <lastmod>2021-12-09</lastmod>
+  <lastmod>2021-12-20</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/loop</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-10-04</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/low-level</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/macro</loc>
-  <lastmod>2021-12-02</lastmod>
+  <lastmod>2021-11-29</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/minimum-viable-product-mvp</loc>
-  <lastmod>2021-11-06</lastmod>
+  <lastmod>2021-11-05</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/model-view-controller-mvc</loc>
-  <lastmod>2021-11-06</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/object-relational-model-orm</loc>
-  <lastmod>2021-12-02</lastmod>
+  <lastmod>2021-11-29</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/open-source</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-13</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/operating-system</loc>
-  <lastmod>2021-10-01</lastmod>
+  <lastmod>2021-10-04</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/outsource</loc>
-  <lastmod>2021-10-17</lastmod>
+  <lastmod>2021-10-06</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/parameter</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/parser</loc>
-  <lastmod>2021-10-17</lastmod>
+  <lastmod>2021-10-13</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/payment-processor</loc>
-  <lastmod>2021-12-02</lastmod>
+  <lastmod>2021-11-29</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/pixel-tracking</loc>
-  <lastmod>2021-11-06</lastmod>
+  <lastmod>2021-11-08</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/preprocessor</loc>
-  <lastmod>2021-12-02</lastmod>
+  <lastmod>2021-11-29</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/primary-key</loc>
-  <lastmod>2021-10-17</lastmod>
+  <lastmod>2021-10-09</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/program</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-20</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/programmer</loc>
-  <lastmod>2021-10-01</lastmod>
+  <lastmod>2021-10-04</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/programming-language</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/proxy-server</loc>
-  <lastmod>2021-11-06</lastmod>
+  <lastmod>2021-11-08</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/pseudocode</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-25</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/refactor</loc>
-  <lastmod>2021-11-09</lastmod>
+  <lastmod>2021-11-11</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/regression-testing</loc>
-  <lastmod>2021-12-02</lastmod>
+  <lastmod>2021-11-30</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/schema</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-21</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/semantic</loc>
-  <lastmod>2021-11-06</lastmod>
+  <lastmod>2021-11-03</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/semver</loc>
-  <lastmod>2021-11-02</lastmod>
+  <lastmod>2021-11-03</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/separation-of-concern-soc</loc>
-  <lastmod>2021-11-27</lastmod>
+  <lastmod>2021-11-26</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
@@ -438,137 +443,137 @@
 </url>
 <url>
   <loc>https://codingterms.com/term/session-storage</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/shell-scripting</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-20</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/sitemap</loc>
-  <lastmod>2021-11-06</lastmod>
+  <lastmod>2021-11-03</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/software-developer</loc>
-  <lastmod>2021-10-01</lastmod>
+  <lastmod>2021-10-04</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/software-development-kit-sdk</loc>
-  <lastmod>2021-11-25</lastmod>
+  <lastmod>2021-11-23</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/software-engineer</loc>
-  <lastmod>2021-10-01</lastmod>
+  <lastmod>2021-10-04</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/software-patch</loc>
-  <lastmod>2021-11-25</lastmod>
+  <lastmod>2021-11-26</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/software</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-20</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/source-code</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/spaghetti-code</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-10-04</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/stress-testing</loc>
-  <lastmod>2021-12-02</lastmod>
+  <lastmod>2021-11-30</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/syntax</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-24</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/tech-stack</loc>
-  <lastmod>2021-11-09</lastmod>
+  <lastmod>2021-11-08</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/technical-debt</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/terminal</loc>
-  <lastmod>2021-10-29</lastmod>
+  <lastmod>2021-10-22</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/test-coverage</loc>
-  <lastmod>2021-12-09</lastmod>
+  <lastmod>2021-12-03</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/testing</loc>
-  <lastmod>2021-12-02</lastmod>
+  <lastmod>2021-11-30</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/timestamp</loc>
-  <lastmod>2021-11-09</lastmod>
+  <lastmod>2021-11-11</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/transpiler</loc>
-  <lastmod>2021-11-25</lastmod>
+  <lastmod>2021-11-26</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/unit-testing</loc>
-  <lastmod>2021-12-02</lastmod>
+  <lastmod>2021-11-30</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/user-agent</loc>
-  <lastmod>2021-11-06</lastmod>
+  <lastmod>2021-11-08</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/variable</loc>
-  <lastmod>2021-11-27</lastmod>
+  <lastmod>2021-11-26</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/version-control</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/versioning</loc>
-  <lastmod>2021-11-02</lastmod>
+  <lastmod>2021-11-03</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/web-framework</loc>
-  <lastmod>2021-11-06</lastmod>
+  <lastmod>2021-11-05</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/webhook</loc>
-  <lastmod>2021-09-28</lastmod>
+  <lastmod>2021-09-27</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://codingterms.com/term/work-in-progress-wip</loc>
-  <lastmod>2021-11-09</lastmod>
+  <lastmod>2021-11-11</lastmod>
   <priority>0.5</priority>
 </url>
 
