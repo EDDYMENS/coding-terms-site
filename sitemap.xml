@@ -7,7 +7,7 @@
 
 <url>
   <loc>https://codingterms.com</loc>
-  <lastmod>2022-01-24</lastmod>
+  <lastmod>2022-02-02</lastmod>
   <priority>1.00</priority>
 </url>
 
@@ -419,6 +419,11 @@
 <url>
   <loc>https://codingterms.com/term/regression-testing</loc>
   <lastmod>2021-11-30</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://codingterms.com/term/sandbox</loc>
+  <lastmod>2022-02-02</lastmod>
   <priority>0.5</priority>
 </url>
 <url>
