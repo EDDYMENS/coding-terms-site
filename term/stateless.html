@@ -2,23 +2,23 @@
 <html lang="en">
   <head>
     <!-- Primary Meta Tags -->
-    <title>Coding Terms | JWT</title>
+    <title>Coding Terms | STATELESS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="Coding Terms | JWT">
-    <meta name="description" content="What is jwt in programming">
+    <meta name="title" content="Coding Terms | STATELESS">
+    <meta name="description" content="What is stateless in programming">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://codingterms.com/">
-    <meta property="og:title" content="Coding Terms | JWT">
-    <meta property="og:description" content="What is jwt in programming">
+    <meta property="og:title" content="Coding Terms | STATELESS">
+    <meta property="og:description" content="What is stateless in programming">
     <meta property="og:image" content="">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://codingterms.com/">
-    <meta property="twitter:title" content="Coding Terms | JWT">
-    <meta property="twitter:description" content="What is jwt in programming">
+    <meta property="twitter:title" content="Coding Terms | STATELESS">
+    <meta property="twitter:description" content="What is stateless in programming">
     <meta property="twitter:image" content="">
     <meta charset="utf-8">
     <meta name="author" content="Eddymens">
@@ -64,7 +64,7 @@
 
       <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
         <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <p class="term-title text-center text-capitalize">jwt</p>
+          <p class="term-title text-center text-capitalize">stateless</p>
         </div>
         <div class="container">
           <div class="row">
@@ -75,31 +75,14 @@
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
 </span>
                 <h2>Definition</h2>
-<p>Most mobile apps on your phone need to communicate to a <a href="server.html">server</a> to perform most of their functionalities.</p>
-<p>Some of these functionalities require that the user is verified. Unlike traditional web apps, where once a user is verified, the browser creates a <a href="cookie.html">cookie</a> to hold this state, mobile apps have no such mechanism and rely on a different approach. Something <a href="stateless.html">stateless</a></p>
-<p>This is also true for modern web apps built using modern frontend <a href="web-framework.html">frameworks</a> with <a href="api.html">APIs</a> acting as an exchange medium to the server.</p>
-<p>A JSON web token (JWT) is a JSON object that is used to securely transport data over the internet (between two parties). The server encrypts authentication information stored as a <a href="json.html">JSON</a> object and sends it back to the app. The app can then send this encrypted data to the server any time the user's identity needs to be verified.</p>
+<p>A web application is said to be <strong>stateless</strong> when it doesn't store any information to remember a user's last visit.</p>
 <h2>Use Cases and Examples</h2>
-<p>JSON Web Tokens are mostly used for:</p>
-<ul>
-<li>
-<a href="authentication.html">Authentication</a>
-</li>
-<li>Secure Information Exchange</li>
-</ul>
-<p>In its compact form, JSON Web Tokens consist of three parts separated by dots (.), which are:</p>
-<ul>
-<li>
-<strong>Header:</strong> This part contains information about the encryption technique used.</li>
-<li>
-<strong>Payload:</strong> This is the information you would like to encrypt</li>
-<li>
-<strong>Signature:</strong> This section is used to verify that the payload is not temped.</li>
-</ul>
-<p>Its all put together and encoded to base64 maintaining the structure <code>header.payload.signature</code>.</p>
+<p>Modern web applications usually have their <a href="frontend-web-framework.html">frontend</a> code separate from the <a href="web-framework.html">backend</a> code and communicate through <a href="api.html">APIs</a>.</p>
+<p>This means whenever the frontend requests or sends data to the backend it needs to inform the backend who that data is from. The frontend has to store extra user information that can be sent to the backend acting as some form of key.</p>
+<p>One common way to handle this kind of <a href="authentication.html">authentication</a> in a stateless fashion is using techniques like <a href="jwt.html">JWT</a></p>
 <h2>Summary</h2>
-<p>The critical part of a JWT is that any app or person can read its content but can't modify it in any way because the server will detect the changes.
-Check out <a href="https://jwt.io">jwt.io</a> to read more on the subject.</p>
+<p>When it comes to stateless applications the responsibility of remembering &quot;who is who&quot; is pushed to the end-user or the frontend side of things.</p>
+<p>This could be beneficial when it comes to scaling since the backend does not need to know the state of the user and the frontend runs on the client's device, this means in situations where one backend server is overloaded another can pick up the tab and handle the client's request.</p>
 
                 <span class="center-it">
     <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
@@ -125,11 +108,9 @@ function search(){var e,t,n;for(e=document.getElementById("search").value.toLowe
   <a href="../404.html" href="../sitemap.xml"></a>
 </template>
 </html>
-      <link rel="prefetch" href="https://codingterms.com/term/server" />
-      <link rel="prefetch" href="https://codingterms.com/term/cookie" />
-      <link rel="prefetch" href="https://codingterms.com/term/stateless" />
+      <link rel="prefetch" href="https://codingterms.com/term/frontend-web-framework" />
       <link rel="prefetch" href="https://codingterms.com/term/web-framework" />
       <link rel="prefetch" href="https://codingterms.com/term/api" />
-      <link rel="prefetch" href="https://codingterms.com/term/json" />
       <link rel="prefetch" href="https://codingterms.com/term/authentication" />
+      <link rel="prefetch" href="https://codingterms.com/term/jwt" />
     
