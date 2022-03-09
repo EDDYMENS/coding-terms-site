@@ -7,7 +7,7 @@
 
 <url>
   <loc>https://codingterms.com</loc>
-  <lastmod>2022-03-07</lastmod>
+  <lastmod>2022-03-09</lastmod>
   <priority>1.00</priority>
 </url>
 
@@ -222,6 +222,11 @@
   <priority>0.5</priority>
 </url>
 <url>
+  <loc>https://codingterms.com/term/duck-punching</loc>
+  <lastmod>2022-03-09</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
   <loc>https://codingterms.com/term/dynamically-typed-languages</loc>
   <lastmod>2022-02-21</lastmod>
   <priority>0.5</priority>
@@ -352,6 +357,11 @@
   <priority>0.5</priority>
 </url>
 <url>
+  <loc>https://codingterms.com/term/monkey-patching</loc>
+  <lastmod>2022-03-09</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
   <loc>https://codingterms.com/term/object-relational-model-orm</loc>
   <lastmod>2021-11-29</lastmod>
   <priority>0.5</priority>
@@ -434,6 +444,11 @@
 <url>
   <loc>https://codingterms.com/term/regression-testing</loc>
   <lastmod>2021-11-30</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://codingterms.com/term/runtime</loc>
+  <lastmod>2022-03-09</lastmod>
   <priority>0.5</priority>
 </url>
 <url>

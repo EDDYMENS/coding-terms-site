@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Primary Meta Tags -->
+    <title>Coding Terms | MONKEY PATCHING</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Coding Terms | MONKEY PATCHING">
+    <meta name="description" content="What is monkey patching in programming">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://codingterms.com/">
+    <meta property="og:title" content="Coding Terms | MONKEY PATCHING">
+    <meta property="og:description" content="What is monkey patching in programming">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://codingterms.com/">
+    <meta property="twitter:title" content="Coding Terms | MONKEY PATCHING">
+    <meta property="twitter:description" content="What is monkey patching in programming">
+    <meta property="twitter:image" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="Eddymens">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../assets/favicons/site.webmanifest">
+
+   <meta name="google-site-verification" content="6vzv3E5M2knCHb09ihdXyAo3NUZWGAQQjGjY0RQ740M" />
+<link href="../assets/main.min.css" rel="prefetch" >
+<link href="../assets/main.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="../assets/style.css" rel="prefetch">
+    <link href="../assets/style.css" rel="stylesheet">
+    <link href="../index.html" rel="prefetch" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K7K2MR150P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K7K2MR150P');
+</script>
+  </head>
+<body>
+
+  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 w-xs-100 text-center" href="../index.html">
+      <h3>Coding Terms</h3>
+    </a>
+        <div class="navbar-nav w-xs-100">
+      <div class="nav-item text-nowrap">
+        <a class="btn bg-danger btn-lg w-xs-100" target="blank" href="https://easybiz.typeform.com/to/TznHJjSn">Find tech jobs</a>
+      </div>
+    </div>
+    </header>
+  <div class="container-fluid">
+    <div class="row">
+
+      <main class="col-md-12 ms-sm-auto col-lg-12 px-md-12">
+        <div class="flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <p class="term-title text-center text-capitalize">monkey patching</p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 card">
+              <article class="term-body">
+                <span class="center-it">
+    <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
+</span>
+                <h2>Definition</h2>
+<p>Monkey patching involves overriding the default functionality of code with another during execution ie: (<a href="runtime.html">runtime</a>).</p>
+<h2>Use Cases and Examples</h2>
+<pre><code>//output before override
+console.log(&quot;hello&quot;); // hello
+
+//overriding default action
+console.log = function(input) {
+    return &quot;Output is: &quot;+input;
+}
+
+//output after override
+console.log(&quot;hello&quot;) // Output is: hello
+</code></pre>
+<p>The above Javascript code shows the output of the <code>console.log</code> function before and after its monkey patched, with an extra string (<code>Output is:</code>) attached to the output after its patched.</p>
+<h2>Summary</h2>
+<p>There are a few good use cases for monkey patching in programming, for example, we can mute all <code>console.log</code> outputs when in production by just patching it up. There are however many instances where monkey patching can lead to code that is hard to work with.</p>
+<p>Monkey patching could mean overriding well-known functionalities which could lead to confusion among co-developers and potential <a href="bug.html">bugs</a> in your code.</p>
+<p>If you ever think of monkey patching there is a chance something wasn't done right in your code, to begin with.</p>
+
+                <span class="center-it">
+    <a class="btn btn-outline-secondary mt-2 mb-2" href="../index.html">All terms</a>
+</span>
+            </div>
+              <a href="https://github.com/EDDYMENS/coding-terms-markdown" target="__blank" class="center-it"><b>Github</b></a>
+          </div>
+          <div class="col-1"></div>
+          </article>
+        </div>
+
+        </html>
+    </div>
+    </main>
+  </div>
+  </div>
+</body>
+<script>
+function search(){var e,t,n;for(e=document.getElementById("search").value.toLowerCase(),t=document.getElementsByClassName("term-link"),n=0;n<t.length;n++){var a=t[n];(a.textContent||a.innerText).toLowerCase().indexOf(e)>-1?a.style.display="":a.style.display="none"}}
+</script>
+<!--hidden links-->
+<template>
+  <a href="../404.html" href="../sitemap.xml"></a>
+</template>
+</html>
+      <link rel="prefetch" href="https://codingterms.com/term/runtime" />
+      <link rel="prefetch" href="https://codingterms.com/term/bug" />
+    
