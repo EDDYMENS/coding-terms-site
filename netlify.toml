@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "`*"
+  to = "https://www.eddymens.com/tags/tech-terms"
+  status = 301
+  force = true
